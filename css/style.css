@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+@font-face {
+	font-family: Ephesis;
+	src: url(../fonts/Ephesis-Regular.woff2) format("woff2"), url(../fonts/Ephesis-Regular.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Estonia;
+	src: url(../fonts/Estonia-Regular.woff2) format("woff2"), url(../fonts/Estonia-Regular.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-family: Lato, sans-serif;
+	font-style: normal;
+	font-size: 36px;
+	font-weight: 400;
+	color: red;
+	text-align: center;
+	text-decoration: underline;
+	line-height: 1.11;
+}
+
+ol.list {
+	font-family: Estonia;
+	font-style: oblique;
+	font-size: 40px;
+	color: rgb(61, 61, 1);
+	font-weight: 400;
+	text-align: right;
+	line-height: 1;
+	word-spacing: 100px;
+}
+
+h2 {
+	font-family: Lato, sans-serif;
+	font-style: normal;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 5;
+	color: #111827;
+	text-align: center;
+}
+
+div.block {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 1.11;
+	font-style: normal;
+	text-align: justify;
+}
+
+.bad,
+.good {
+	font-family: Ephesis;
+	font-size: 22px;
+	line-height: 1.11;
+}
+
+ul.text {
+	line-height: 3;
+	text-align: left;
+	font-weight: 400;
+	color: #ff442f;
+	text-decoration: underline overline;
+	text-shadow: 10px 10px 1px #000;
+	word-spacing: 10px;
+	text-transform: capitalize;
+	text-indent: 60px;
+	letter-spacing: 50px;
+}
+
+div.list {
+	font-family: "Estonia";
+	font-size: 36px;
+
+	color: red;
+}
+
+.list .parlist {
+	color: blue;
+}
+
+.list .sublist {
+	font-size: 110px;
+}
+
+[class*="pryk"] {
+	color: yellow;
+}
+
+.list>.parlist>p {
+	color: green;
+	font-size: 50px;
+}
+
+.list>.parlist+ul>li>span {
+	color: blue;
+}
+
+.sublist>.pryk~li {
+	color: blue;
+}
